@@ -9,6 +9,10 @@ const Navbar = () =>{
     return(
         <nav className="navbar">
             <div className="logo">
+                    <img src={logo} alt="CUNY logo" />
+            </div>
+            {/* 
+            <div className="logo">
                 <Link to="/">
                     <img src={logo} alt="CUNY logo" />
                 </Link>
@@ -20,6 +24,7 @@ const Navbar = () =>{
                 <li><Link to="/events">Events</Link></li>
                 <li><Link to="/resources">Resources</Link></li>
             </ul>
+            */}
         </nav>
     );
 };
