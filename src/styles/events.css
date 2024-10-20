@@ -1,0 +1,75 @@
+.events-page h1 {
+    margin-bottom: 20px;
+}
+.events-page {
+    padding: 30px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .tab {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .tab-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: hsl(207, 100%, 37%);
+    color: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tab.active .tab-header {
+    background-color: #1976d2;
+  }
+  
+  .tab h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .arrow {
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow.open {
+    transform: rotate(180deg);
+  }
+  
+  .content {
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    background: #ffffff;
+  }
+  
+  .event-item {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .event-item:last-child {
+    border-bottom: none;
+  }
+  
+  .event-item h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .event-item p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
