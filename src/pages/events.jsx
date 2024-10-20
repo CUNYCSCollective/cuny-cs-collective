@@ -10,6 +10,7 @@ const Events = () => {
   
 
   /* Placeholder data for testing purposes */
+ /*
   const eventsData = {
     september: [
       { title: "Movie Night", time: "September 5, 2024 - 7:00 PM", location: "Main Quad" },
@@ -19,6 +20,7 @@ const Events = () => {
       { title: "Halloween Costume Contest", time: "October 31, 2024 - 5:00 PM", location: "Auditorium" }
     ]
   };
+  */
 
   return (
     <div className="events-page">
